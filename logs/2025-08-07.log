@@ -344,3 +344,51 @@ Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or '
 [WARN]2025-08-07 18:52:54,911 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
 [WARN]2025-08-07 18:53:29,966 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
 [WARN]2025-08-07 18:53:30,624 - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+[INFO]2025-08-07 18:58:52,498 - Restarting due to 15 class path changes (0 additions, 7 deletions, 8 modifications)
+[INFO]2025-08-07 18:58:52,501 - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO]2025-08-07 18:58:52,502 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:52,703 - Graceful shutdown complete
+[INFO]2025-08-07 18:58:52,705 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:52,717 - HikariPool-1 - Shutdown initiated...
+[INFO]2025-08-07 18:58:52,722 - HikariPool-1 - Shutdown completed.
+[INFO]2025-08-07 18:58:52,784 - Starting SpringBootSchoolApplication using Java 17.0.7 with PID 5840 (C:\Users\ShiRyant\IdeaProjects\SpringBoot-School\target\classes started by ShiRyant in C:\Users\ShiRyant\IdeaProjects\SpringBoot-School)
+[INFO]2025-08-07 18:58:52,784 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2025-08-07 18:58:52,956 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2025-08-07 18:58:52,956 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2025-08-07 18:58:52,969 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+[INFO]2025-08-07 18:58:53,040 - Tomcat initialized with port 8080 (http)
+[INFO]2025-08-07 18:58:53,040 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:53,040 - Starting service [Tomcat]
+[INFO]2025-08-07 18:58:53,040 - Starting Servlet engine: [Apache Tomcat/10.1.43]
+[INFO]2025-08-07 18:58:53,065 - Initializing Spring embedded WebApplicationContext
+[INFO]2025-08-07 18:58:53,065 - Root WebApplicationContext: initialization completed in 280 ms
+[INFO]2025-08-07 18:58:53,388 - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@269cf14a
+[INFO]2025-08-07 18:58:53,415 - LiveReload server is running on port 35729
+[INFO]2025-08-07 18:58:53,427 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:53,429 - Tomcat started on port 8080 (http) with context path '/'
+[INFO]2025-08-07 18:58:53,434 - Started SpringBootSchoolApplication in 0.674 seconds (process running for 390.652)
+[INFO]2025-08-07 18:58:53,435 - Condition evaluation unchanged
+[INFO]2025-08-07 18:58:54,880 - Restarting due to 7 class path changes (7 additions, 0 deletions, 0 modifications)
+[INFO]2025-08-07 18:58:54,881 - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO]2025-08-07 18:58:54,881 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:55,104 - Graceful shutdown complete
+[INFO]2025-08-07 18:58:55,104 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:55,162 - Starting SpringBootSchoolApplication using Java 17.0.7 with PID 5840 (C:\Users\ShiRyant\IdeaProjects\SpringBoot-School\target\classes started by ShiRyant in C:\Users\ShiRyant\IdeaProjects\SpringBoot-School)
+[INFO]2025-08-07 18:58:55,162 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2025-08-07 18:58:55,310 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2025-08-07 18:58:55,311 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2025-08-07 18:58:55,320 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2025-08-07 18:58:55,380 - Tomcat initialized with port 8080 (http)
+[INFO]2025-08-07 18:58:55,381 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:55,381 - Starting service [Tomcat]
+[INFO]2025-08-07 18:58:55,381 - Starting Servlet engine: [Apache Tomcat/10.1.43]
+[INFO]2025-08-07 18:58:55,405 - Initializing Spring embedded WebApplicationContext
+[INFO]2025-08-07 18:58:55,405 - Root WebApplicationContext: initialization completed in 243 ms
+[INFO]2025-08-07 18:58:55,748 - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@364c2db9
+[INFO]2025-08-07 18:58:55,789 - LiveReload server is running on port 35729
+[INFO]2025-08-07 18:58:55,822 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2025-08-07 18:58:55,826 - Tomcat started on port 8080 (http) with context path '/'
+[INFO]2025-08-07 18:58:55,839 - Started SpringBootSchoolApplication in 0.7 seconds (process running for 393.058)
+[INFO]2025-08-07 18:58:55,841 - Condition evaluation unchanged
+[INFO]2025-08-07 18:59:31,974 - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO]2025-08-07 18:59:32,166 - Graceful shutdown complete
