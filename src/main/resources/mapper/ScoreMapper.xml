@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="gene.recombine.springboot.mapper.ScoreMapper">
+
+    <resultMap id="BaseResultMap" type="gene.recombine.springboot.entity.Score">
+            <id property="scoreId" column="score_id" />
+            <result property="studentId" column="student_id" />
+            <result property="scoreScore" column="score_score" />
+            <result property="courseId" column="course_id" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        score_id,student_id,score_score,course_id
+    </sql>
+</mapper>

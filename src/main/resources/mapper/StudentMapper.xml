@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="gene.recombine.springboot.mapper.StudentMapper">
+
+    <resultMap id="BaseResultMap" type="gene.recombine.springboot.entity.Student">
+            <id property="studentId" column="student_id" />
+            <result property="studentName" column="student_name" />
+            <result property="studentBirth" column="student_birth" />
+            <result property="studentAddress" column="student_address" />
+            <result property="studentNo" column="student_no" />
+            <result property="gradeId" column="grade_id" />
+            <result property="studentAge" column="student_age" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        student_id,student_name,student_birth,student_address,student_no,grade_id,
+        student_age
+    </sql>
+</mapper>
