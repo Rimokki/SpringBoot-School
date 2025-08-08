@@ -19,8 +19,8 @@ public class AroundCut {
     @Autowired
     StringRedisTemplate redisTemplate;
 
-    public static final String POINT_CUT = "execution(* gene.recombine.spring.controller.StudentController.*(..)) || " +
-            "execution(* gene.recombine.spring.controller.GradeController.*(..))";
+    public static final String POINT_CUT = "execution(* gene.recombine.springboot.controller.StudentController.*(..)) || " +
+            "execution(* gene.recombine.springboot.controller.GradeController.*(..))";
 
 
     @Around(AroundCut.POINT_CUT)

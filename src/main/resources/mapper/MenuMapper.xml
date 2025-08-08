@@ -16,4 +16,7 @@
     <sql id="Base_Column_List">
         menu_id,title,path,icon,parent_id,user_type
     </sql>
+    <select id="getMenusByUserType" resultMap="BaseResultMap">
+        SELECT * FROM menu WHERE FIND_IN_SET(#{userType}, user_type)
+    </select>
 </mapper>

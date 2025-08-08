@@ -2,6 +2,9 @@ package gene.recombine.springboot.mapper;
 
 import gene.recombine.springboot.entity.Menu;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import gene.recombine.springboot.entity.User;
+
+import java.util.List;
 
 /**
 * @author ShiRyant
@@ -10,7 +13,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @Entity gene.recombine.springboot.entity.Menu
 */
 public interface MenuMapper extends BaseMapper<Menu> {
-
+    List<Menu> getMenusByUserType(User user);
 }
 
 
